@@ -1,0 +1,25 @@
+.header {
+  max-width: 1280px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header__logo {
+  margin-top: 34px;
+}
+
+.header__content {
+  margin-top: 91px;
+  height: 983px;
+  width: 984px;
+  text-align: center;
+}
+
+.header__title {
+  font-size: 96px;
+  font-family: "tipografia del sprint";
+  font-style: normal;
+  font-weight: bold;
+}
