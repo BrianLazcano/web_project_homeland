@@ -1,0 +1,51 @@
+.main {
+  display: block;
+  width: 830px;
+  height: 607px;
+  margin-left: 148px;
+  text-align: right;
+}
+
+.main__title {
+  font-family: "inter black";
+  font-size: 54px;
+  font-weight: 900;
+  margin: 92px auto;
+  text-align: left;
+}
+
+.main__intro {
+  width: 738px;
+  height: 135.66px;
+}
+
+.main__intro-content {
+  font-family: "inter regular";
+  font-size: 24px;
+  font-style: regular;
+  font-weight: 400;
+  text-align: justify;
+  line-height: 34px;
+}
+
+.main__intro-autor {
+  width: 732px;
+  font-family: "inter regular";
+  text-align: end;
+  font-style: regular;
+  font-size: 24px;
+  margin-right: 400px;
+  font-weight: 400;
+}
+
+.main_description {
+  height: 181.54px;
+  width: 722px;
+}
+
+.main__description-content {
+  margin-top: 32px;
+  font-family: "inter regular";
+  font-size: 16px;
+  text-align: left;
+}
