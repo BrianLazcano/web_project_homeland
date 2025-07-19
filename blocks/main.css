@@ -1,17 +1,18 @@
 .main {
+  margin: auto;
   display: block;
-  width: 830px;
+  width: 984px;
   height: 607px;
-  margin-left: 148px;
-  text-align: right;
 }
 
 .main__title {
   font-family: "inter black";
   font-size: 54px;
   font-weight: 900;
-  margin: 92px auto;
-  text-align: left;
+  margin: 92px auto 39.4px 0;
+  text-align: start;
+  width: 830px;
+  line-height: 1.1;
 }
 
 .main__intro {
@@ -22,9 +23,7 @@
 .main__intro-content {
   font-family: "inter regular";
   font-size: 24px;
-  font-style: regular;
   font-weight: 400;
-  text-align: justify;
   line-height: 34px;
 }
 

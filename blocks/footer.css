@@ -1,0 +1,11 @@
+.footer {
+  margin: 92px auto auto auto;
+  height: auto;
+  width: 830px;
+}
+
+.footer__copyright {
+  text-align: center;
+  font-size: 14px;
+  font-family: "inter regular";
+}
