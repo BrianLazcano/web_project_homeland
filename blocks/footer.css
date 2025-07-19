@@ -1,11 +1,27 @@
-.footer {
-  margin: 92px auto auto auto;
-  height: auto;
-  width: 830px;
+@media screen and (min-width: 1280px) {
+  .footer {
+    margin: 92px auto auto auto;
+    height: auto;
+    width: 830px;
+  }
+
+  .footer__copyright {
+    text-align: center;
+    font-size: 14px;
+    font-family: "inter regular";
+  }
 }
 
-.footer__copyright {
-  text-align: center;
-  font-size: 14px;
-  font-family: "inter regular";
+@media screen and (min-width: 768) and (max-width: 1279px) {
+  .footer {
+    width: 768px;
+  }
+
+  .footer__copyright {
+    margin: 90px auto 28px auto;
+    text-align: center;
+    font-size: 14px;
+    font-family: "inter regular";
+    color: aqua;
+  }
 }
