@@ -7,24 +7,30 @@
 
   .header__logo {
     margin-top: 34px;
+    margin-bottom: 91px;
+    padding: 0;
   }
 
   .header__content {
-    margin-top: 91px;
-    height: 304px;
-    width: 983px;
+    margin: 0;
+    /* margin-top: 91px; */
+    /* height: 304px; */
+    width: 100%;
     text-align: center;
     margin-bottom: 65px;
   }
 
   .header__title {
+    margin: 0;
     font-size: 96px;
     font-family: "inter black";
     font-style: normal;
     font-weight: 900;
+    margin-bottom: 32px;
   }
 
   .header__subtitle {
+    margin: 0;
     font-size: 30px;
     font-family: "inter regular";
     font-style: normal;
@@ -32,15 +38,16 @@
   }
 
   .header__image {
-    margin-top: 65px;
-    padding-top: 65px;
-    width: 984px;
-    height: 615px;
+    /* margin-top: 65px;
+    padding-top: 65px; */
+    /* width: 984px;
+    height: 615px; */
     filter: grayscale(1);
+    margin-bottom: 92px;
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1279px) {
+@media screen and (min-width: 768px) and (max-width: 1280px) {
   .header {
     display: flex;
     flex-direction: column;
