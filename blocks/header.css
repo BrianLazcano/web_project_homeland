@@ -12,42 +12,38 @@
   }
 
   .header__content {
-    margin: 0;
-    /* margin-top: 91px; */
-    /* height: 304px; */
-    width: 100%;
-    text-align: center;
-    margin-bottom: 65px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   .header__title {
+    max-width: 720px;
     margin: 0;
     font-size: 96px;
-    font-family: "inter black";
+    font-family: "inter black", sans-serif;
     font-style: normal;
     font-weight: 900;
-    margin-bottom: 32px;
+    line-height: 1;
+    text-align: center;
+    /* margin-bottom: 32px; */
   }
 
   .header__subtitle {
-    margin: 0;
+    margin: 32px auto 64px auto;
     font-size: 30px;
-    font-family: "inter regular";
+    font-family: "inter regular", sans-serif;
     font-style: normal;
     font-weight: 400;
+    line-height: 1;
   }
 
   .header__image {
-    /* margin-top: 65px;
-    padding-top: 65px; */
-    /* width: 984px;
-    height: 615px; */
     filter: grayscale(1);
-    margin-bottom: 92px;
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1280px) {
+@media screen and (min-width: 768px) and (max-width: 1279px) {
   .header {
     display: flex;
     flex-direction: column;
@@ -55,36 +51,60 @@
   }
 
   .header__logo {
+    height: 66px;
     margin-top: 30px;
+    padding: 0;
   }
 
   .header__content {
     margin-top: 90px;
+    text-align: center;
+    padding: 0;
+  }
+
+  .header__title {
+    max-width: 530px;
+    font-size: 75px;
+    font-family: "inter black";
+    font-style: normal;
+    font-weight: 900;
+    line-height: 1;
+    margin: 0 auto;
+  }
+
+  .header__subtitle {
+    margin: 25px auto 30px;
+    font-size: 30px;
+    font-family: "inter regular";
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.2;
+  }
+  .header__image {
+    max-width: 768px;
+    max-height: 480px;
+    filter: grayscale(1);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .header__logo {
+    height: 52px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    padding: 0;
+  }
+  .header__content {
     height: 255px;
     width: 720px;
     text-align: center;
     margin-bottom: 30px;
     padding-bottom: 30px;
-  }
-
-  .header__title {
-    font-size: 75px;
-    font-family: "inter black";
-    font-style: normal;
-    font-weight: 900;
-  }
-
-  .header__subtitle {
-    font-size: 30px;
-    font-family: "inter regular";
-    font-style: normal;
-    font-weight: 400;
-  }
-  .header__image {
-    margin-top: 30px;
-    padding-top: 30px;
-    width: 768px;
-    height: 480px;
-    filter: grayscale(1);
   }
 }
