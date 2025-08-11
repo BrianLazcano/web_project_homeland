@@ -32,7 +32,6 @@
     width: 732px;
     font-family: "inter regular";
     text-align: end;
-    font-style: regular;
     font-size: 24px;
     margin: 0;
     margin-top: 10px;
@@ -88,7 +87,6 @@
     max-width: 720px;
     font-family: "inter regular";
     text-align: end;
-    font-style: regular;
     font-size: 24px;
     font-weight: 400;
     margin: 0;
@@ -140,10 +138,9 @@
   }
 
   .main__intro-autor {
-    max-width: 288;
+    max-width: 288px;
     font-family: "inter regular";
     text-align: end;
-    font-style: regular;
     font-size: 24px;
     font-weight: 400;
     line-height: 1.45;
