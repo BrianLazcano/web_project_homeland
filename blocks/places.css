@@ -9,7 +9,7 @@
 .place__storie {
   display: grid;
   margin: 0 auto 0;
-  grid-template-columns: repeat(2, 2fr);
+  grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(4, auto);
   gap: 48px 40px;
   align-self: flex-start;
